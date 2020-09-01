@@ -27,31 +27,50 @@
     font-weight: normal;
     line-height: 3rem;
     margin-top: -2rem;
-    /* font-size: 3.2rem; */
 }
 
 .buttons-container {
     display: flex;
     justify-content: center;
     margin: 3.2rem 0;
+    
 }
 
 .buttons-container a {
-    width: 30rem;
-    height: 10.4rem;
-    border-radius: 0.8rem;
-    font: 700 2.0rem Poppins;
+    font: 500 15px Poppins;
 
     display: flex;
     justify-content: center;
+    align-items: center;
 
     text-decoration: none;
-    color: var(--color-button-text-two)
+    
+    border-radius: 40px;
+    position: relative;
+    height: 50px;
+    width: 150px;
 
 
 }
 
 .buttons-container a:first-child {
     margin-right: 1.6rem;
-    color: var(--color-button-text-one)
+    color: var(--color-button-text-one);
+}
+
+.buttons-container a.login {
+    background: none;
+    border: 1px solid var(--color-primary-lighter);
+}
+
+.buttons-container a.register {
+    color: var(--color-button-text-two);
+    background-color: var(--color-button-text-one);
+    
+}
+
+.total-connections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

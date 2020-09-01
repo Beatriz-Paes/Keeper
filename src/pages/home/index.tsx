@@ -1,5 +1,6 @@
 import React from 'react';
 import keeper from '../../assets/images/home/keeper.svg';
+import heart from '../../assets/images/home/heart.svg';
 import keeperLogo from '../../assets/images/keeper_logo.svg';
 import '../style.css';
 
@@ -21,7 +22,7 @@ function Home() {
             </div>
 
             <span className="total-connections">
-              Total de 200 pessoas já conectadas <img src="" alt=""/>
+              Total de 200 pessoas já conectadas <img src={heart} alt="coração"/>
             </span>
 
         </div>
