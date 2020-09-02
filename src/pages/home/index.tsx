@@ -9,6 +9,11 @@ function Home() {
   return (
     <div id="page-home">
         <div id="page-home-content" className="container">
+          <div className="top-nav">
+            <a href="" className="start">Início</a>
+            <a href="" className="guardian">Seja um guardião</a>
+            <a href="" className="">Sobre</a>
+          </div>
           <div className="logo-container">
             <img src={keeperLogo} alt="logo"/>
             <h2>Imagine uma nova história para sua vida e acredite nela!</h2>
