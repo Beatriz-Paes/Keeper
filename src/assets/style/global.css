@@ -33,8 +33,9 @@ html, body #root {
 }
 
 body {
-  background:  var(--color-background-gradient);
+  /* background:  var(--color-background-gradient); */
   /* background: #002668 */
+  background: #DBE6F9;
 }
 
 #root {
