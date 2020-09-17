@@ -122,10 +122,37 @@
         display: grid;
         grid-template-rows: 1px 2fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        /* grid-template-areas: ; */
+        grid-template-areas: 
+        "nav nav logo buttons"
+        "text connections hero hero"
+        ;
     }
 
-    .top-nav a {
-        font-size: 1.8rem;
+    .top-nav {
+        grid-area: nav;
     }
+    /* .top-nav a {
+        font-size: 1.8rem;
+    } */
+
+    .logo-container img {
+        grid-area: logo;
+    }
+
+    .buttons-container {
+        grid-area: buttons;
+    }
+
+    .logo-container h2{
+        grid: text;
+    }
+
+    .total-connections {
+        grid-area: connections;
+    }
+
+    .hero-image {
+        grid-area: hero;
+    }
+
 }
