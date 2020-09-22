@@ -5,7 +5,7 @@ import keeperLogo from '../../assets/images/keeper_logo.svg';
 import '../style.css';
 
 
-function Home() {
+function Landing() {
   return (
     <div id="page-home">
         <div id="page-home-content" className="container">
@@ -36,4 +36,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Landing;
