@@ -35,6 +35,11 @@
     width: 100%;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .logo-container {
     text-align: center;
     margin-bottom: 3.2rem;
@@ -116,7 +121,7 @@
     margin: 0.4rem;
 }
 
-@media (min-width: 1100px) {
+/* @media (min-width: 1100px) {
     #page-home-content {
         max-width: 1100px;
         display: grid;
@@ -126,16 +131,16 @@
         "nav nav logo buttons"
         "text connections hero hero"
         ;
-    }
+    } */
 
-    .top-nav {
+    /* .top-nav {
         grid-area: nav;
-    }
+    } */
     /* .top-nav a {
         font-size: 1.8rem;
     } */
 
-    .logo-container img {
+    /* .logo-container img {
         grid-area: logo;
     }
 
@@ -153,6 +158,5 @@
 
     .hero-image {
         grid-area: hero;
-    }
+    } */
 
-}
