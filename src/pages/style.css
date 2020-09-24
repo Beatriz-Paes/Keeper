@@ -35,9 +35,27 @@
     width: 100%;
 }
 
-.image-container {
+.image-container1,
+.image-container2 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0;
+  
+}
+
+.image-saude,
+.image-mente,
+.image-corpo,
+.image-bemestar {
+    display: flex;
+    text-align: center;
+}
+
+
+.image-saude, .image-corpo {
+    margin-right: 1.6rem;
 }
 
 .logo-container {

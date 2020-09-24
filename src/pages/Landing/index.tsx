@@ -24,14 +24,37 @@ function Landing() {
             <img src={keeperLogo} alt="logo"/>
             <h2>Imagine uma nova história para sua vida e acredite nela!</h2>
           </div>
+
           <img src={keeper} alt="Keeper" className="hero-image"/>
-         
-          <div className="image-container">
-            <img src={saude} alt="Sua saúde" className="image-saude"/>
-            <img src={mente} alt="Sua mente" className="image-mente"/>
-            <img src={corpo} alt="Seu corpo" className="image-corpo"/>
-            <img src={bemestar} alt="Seu bem-estar" className="image-bemestar"/>
-          </div>
+        
+            <div className="image-container1">
+              <Link to="" className="saude">
+              <img src={saude} alt="Sua saúde" className="image-saude"/>
+              Sua saúde
+              </Link>
+
+              <Link to="" className="mente">
+              <img src={mente} alt="Sua saúde" className="image-mente"/>
+              Sua mente
+              </Link>
+            </div>
+
+
+            <div className="image-container2">
+              <Link to="" className="corpo">
+              <img src={corpo} alt="Seu corpo" className="image-corpo"/>
+              Seu corpo
+              </Link>
+
+              <Link to="" className="bemestar">
+              <img src={bemestar} alt="Seu bem-estar" className="image-bemestar"/>
+              Seu bem-estar
+              </Link>
+            </div>
+          
+
+
+          
            
 
             <div className="buttons-container">
