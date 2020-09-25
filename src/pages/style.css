@@ -13,7 +13,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
+    margin-top: 2rem;
 }
 
 .top-nav a {
@@ -39,10 +40,42 @@
 .image-container2 {
     display: flex;
     justify-content: center;
+
+    margin: 1rem 0; 
+}
+
+.image-container1 a,
+.image-container2 a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.image-container1 h3,
+.image-container2 h3 {
+    display: flex;
     align-items: center;
-    text-align: center;
-    margin: 3rem 0;
-  
+    justify-content: center;
+    background: var(--color-button-text-one);
+    opacity: 0.8;
+    border-radius: 20px 0px;
+
+    font-family: Poppins;
+    /* font-size: 15px; */
+    /* font-style: normal; */
+    font-weight: 500;
+    /* text-align: left; */
+
+    width: 148px;
+    height: 37px;
+    left: 126px;
+    top: 557px;
+
+    transition: background-color 0.2s;
+}
+
+.buttons-container1 a.hover {
+    color: var(--color-button-text-two);
+    background: var(--color-secundary-dark);
 }
 
 .image-saude,
@@ -51,6 +84,7 @@
 .image-bemestar {
     display: flex;
     text-align: center;
+    
 }
 
 
@@ -67,7 +101,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: 3rem;
-    margin-top: -2rem;
+    margin-top: -3rem;
 
     text-shadow: var(--color-text-shadow)
 }

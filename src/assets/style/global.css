@@ -2,9 +2,7 @@
   --color-background-gradient: linear-gradient(180deg, #DBE6F9 0%, rgba(172, 203, 255, 0.49) 47.92%, rgba(76, 122, 203, 0.67) 140%);
   --color-primary-lighter: #6F88CA;
   --color-primary-light: rgba(92, 130, 177, 0.1);
-  --color-primary: #8257E5;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842C2;
+  --color-white: #FFFFFF;
   --color-secundary: #04D361;
   --color-secundary-dark: rgba(47, 117, 204, 0.60);
   --color-title-in-primary: #FFFFFF;

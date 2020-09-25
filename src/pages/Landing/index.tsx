@@ -26,16 +26,16 @@ function Landing() {
           </div>
 
           <img src={keeper} alt="Keeper" className="hero-image"/>
-        
+
             <div className="image-container1">
               <Link to="" className="saude">
               <img src={saude} alt="Sua saúde" className="image-saude"/>
-              Sua saúde
+              <h3>Sua saúde</h3>
               </Link>
 
               <Link to="" className="mente">
               <img src={mente} alt="Sua saúde" className="image-mente"/>
-              Sua mente
+              <h3>Sua mente</h3>
               </Link>
             </div>
 
@@ -43,18 +43,15 @@ function Landing() {
             <div className="image-container2">
               <Link to="" className="corpo">
               <img src={corpo} alt="Seu corpo" className="image-corpo"/>
-              Seu corpo
+              <h3>Seu corpo</h3>
               </Link>
 
               <Link to="" className="bemestar">
               <img src={bemestar} alt="Seu bem-estar" className="image-bemestar"/>
-              Seu bem-estar
+              <h3>Seu bem estar</h3>
               </Link>
             </div>
-          
-
-
-          
+                    
            
 
             <div className="buttons-container">
