@@ -1,4 +1,4 @@
-#page-home {
+#page-landing {
     width: 100vw;
     height: 100vw;
 
@@ -173,26 +173,33 @@
     margin: 0.4rem;
 }
 
-/* @media (min-width: 1100px) {
-    #page-home-content {
-        max-width: 1100px;
+/* @media (min-width: 900px) {
+    #page-landing-content {
+        max-width: 900px;
+
         display: grid;
-        grid-template-rows: 1px 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        
         grid-template-areas: 
-        "nav nav logo buttons"
-        "text connections hero hero"
+        "nav nav buttons buttons"
+        "logo hero hero"
+        "activities activities connections"
+        "activities activities connections"
         ;
-    } */
+    }
+}
 
-    /* .top-nav {
+    .top-nav {
         grid-area: nav;
-    } */
-    /* .top-nav a {
+        width: 90%;
+        max-width: 980px;
+    }
+    .top-nav a {
         font-size: 1.8rem;
-    } */
+    }
 
-    /* .logo-container img {
+    .logo-container img {
         grid-area: logo;
     }
 
@@ -210,5 +217,5 @@
 
     .hero-image {
         grid-area: hero;
-    } */
-
+    }
+ */

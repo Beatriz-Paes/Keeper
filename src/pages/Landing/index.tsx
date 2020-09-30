@@ -13,8 +13,8 @@ import '../style.css';
 
 function Landing() {
   return (
-    <div id="page-home">
-        <div id="page-home-content" className="container">
+    <div id="page-landing">
+        <div id="page-landing-content" className="container">
           <div className="top-nav">
             <Link to="/Home" className="start">Início</Link>
             <Link to="" className="guardian">Seja um guardião</Link>
@@ -27,17 +27,18 @@ function Landing() {
 
           <img src={keeper} alt="Keeper" className="hero-image"/>
 
+          <div className="activities-container">
             <div className="image-container1">
-              <Link to="" className="saude">
-              <img src={saude} alt="Sua saúde" className="image-saude"/>
-              <h3>Sua saúde</h3>
-              </Link>
+                <Link to="" className="saude">
+                <img src={saude} alt="Sua saúde" className="image-saude"/>
+                <h3>Sua saúde</h3>
+                </Link>
 
-              <Link to="" className="mente">
-              <img src={mente} alt="Sua saúde" className="image-mente"/>
-              <h3>Sua mente</h3>
-              </Link>
-            </div>
+                <Link to="" className="mente">
+                <img src={mente} alt="Sua saúde" className="image-mente"/>
+                <h3>Sua mente</h3>
+                </Link>
+          </div>
 
 
             <div className="image-container2">
@@ -51,8 +52,7 @@ function Landing() {
               <h3>Seu bem estar</h3>
               </Link>
             </div>
-                    
-           
+          </div>
 
             <div className="buttons-container">
               <Link to="/Home" className="login">Login</Link>

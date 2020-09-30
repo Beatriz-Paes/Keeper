@@ -4,7 +4,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import heart from '../../assets/images/home/heart.svg';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -84,7 +83,7 @@ export default function VerticalTabs() {
         Monitoramento familiar
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Sua mente <img src={heart} alt=""/>
+        Sua mente
       </TabPanel>
       <TabPanel value={value} index={3}>
         Seu corpo
