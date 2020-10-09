@@ -1,6 +1,6 @@
 #page-landing {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -173,49 +173,73 @@
     margin: 0.4rem;
 }
 
-/* @media (min-width: 900px) {
+@media (min-width: 1124px) {
     #page-landing-content {
-        max-width: 900px;
+        max-width: 1124px;
+
+        width: 100vw;
+        height: 100vh;
 
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 60px fr 1fr 60px;
+        grid-template-columns: 1fr 1fr;
         
         grid-template-areas: 
-        "nav nav buttons buttons"
-        "logo hero hero"
-        "activities activities connections"
-        "activities activities connections"
+        "nav buttons"
+        "logo hero "
+        "activities hero "
+        "total total "
+
         ;
     }
-}
 
     .top-nav {
         grid-area: nav;
-        width: 90%;
-        max-width: 980px;
+        align-self: center;
+        justify-content: start;
+        margin: 0;
     }
-    .top-nav a {
-        font-size: 1.8rem;
+
+    .logo-container {
+        grid-area: logo;
+        align-self: flex-start;
+        justify-content: center;
+        margin: 0;
     }
 
     .logo-container img {
-        grid-area: logo;
+        height: 100%;
     }
 
     .buttons-container {
         grid-area: buttons;
+        align-self: center;
+        justify-self: end;
+        margin: 0;
     }
 
-    .logo-container h2{
-        grid: text;
-    }
-
-    .total-connections {
-        grid-area: connections;
+    .activities-container {
+        grid-area: activities;
+        align-self: baseline;
+        justify-self: center;
+        margin: 0;
     }
 
     .hero-image {
         grid-area: hero;
+        margin: 0;
+        align-self: center;
+        justify-self: center;
     }
- */
+
+
+    .total-connections {
+        grid-area: total;
+        align-self: center;
+        justify-self: end;
+    }
+
+
+}
+
+    

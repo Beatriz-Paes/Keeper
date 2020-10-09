@@ -60,7 +60,7 @@ function Landing() {
             </div>
 
             <span className="total-connections">
-              Total de 200 pessoas já conectadas <img src={heart} alt="coração"/>
+              Total de 200 pessoas já conectadas <img src={heart} alt="coração azul"/>
             </span>
 
         </div>
